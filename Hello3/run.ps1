@@ -1,6 +1,8 @@
+[CmdletBinding()]
 param (
     [Parameter(Mandatory)]
     [string]$VirtualMachineName
+    
 )
 try
 {   
